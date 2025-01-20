@@ -129,8 +129,8 @@ void step( AlphaBot &motors){
 	R= c->getTask()->getAction().getRWheelSpeed();
 	L=c->getTask()->getAction().getLWheelSpeed();
 	if (c->getTask()->direction==LEFT){
-		R*=1.23;
-		L*=1.23;
+		R*=1.3;
+		L*=1.3;
 	}
 	else if (c->getTask()->direction==RIGHT){
 		R*=1.17;
